@@ -1,0 +1,17 @@
+# clasp: contains your personal script ID, never commit it
+.clasp.json
+.clasprc.json
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+
+# Exports of real tracker data (keep personal data out of the repo)
+*.xlsx
+*.csv
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
